@@ -1,0 +1,24 @@
+{
+  "name": "component-base64",
+  "version": "0.0.0",
+  "description": "A plugin to automatically convert file, especially images, to base64 encoded string for the component builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rogerz/component-base64.git"
+  },
+  "keywords": [
+    "component",
+    "image",
+    "base64"
+  ],
+  "author": "Rogerz Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rogerz/component-base64/issues"
+  },
+  "homepage": "https://github.com/rogerz/component-base64"
+}
