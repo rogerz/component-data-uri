@@ -1,0 +1,13 @@
+{
+    "name": "example",
+    "scripts": [
+	"index.js"
+    ],
+    "templates": [
+    ],
+    "dataURIs": [
+	"images/1.png",
+	"images/2.png"
+    ],
+    "main": "index.js"
+}

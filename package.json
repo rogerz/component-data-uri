@@ -1,14 +1,14 @@
 {
-  "name": "component-base64",
+  "name": "component-data-uri",
   "version": "0.0.0",
-  "description": "A plugin to automatically convert file, especially images, to base64 encoded string for the component builder",
+  "description": "A plugin to automatically convert file, especially images, to data URI scheme for the component builder",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/rogerz/component-base64.git"
+    "url": "git://github.com/rogerz/component-data-uri.git"
   },
   "keywords": [
     "component",
@@ -18,7 +18,13 @@
   "author": "Rogerz Zhang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rogerz/component-base64/issues"
+    "url": "https://github.com/rogerz/component-data-uri/issues"
   },
-  "homepage": "https://github.com/rogerz/component-base64"
+  "homepage": "https://github.com/rogerz/component-data-uri",
+  "devDependencies": {
+    "component-builder": "~0.10.0"
+  },
+  "dependencies": {
+    "mime": "~1.2.11"
+  }
 }
