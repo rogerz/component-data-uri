@@ -11,4 +11,5 @@ builder.build(function (err, res) {
     console.log(err);
   }
   fs.writeFileSync('example/build.js', res.require + res.js);
+  if (res.css) fs.writeFileSync('build/build.css', res.css);
 });
